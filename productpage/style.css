@@ -1,0 +1,147 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.btn{
+
+    font-size: 20px;
+    border: 2px solid rgb(139, 30, 30);
+    border-radius: 10px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    background-color: #7dbd83;
+}
+.btn:hover{
+    color: #bdf710;
+}
+.btn1{
+    height: 50px;
+    width: 100px;
+    padding-left: 20%;
+    padding-top:10% ;
+}
+/* h1{
+    
+    display: flex;
+    justify-content: center;
+    background-color: #fbfcf9;
+    color: #ca1818;
+}
+h1:hover{
+    color: #9dd807;
+} */
+
+.navbar ul li a{
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: #f00833;
+    border-radius: 20%;
+
+}
+
+.navbar ul {
+    
+    text-decoration: none;
+    list-style: none;
+    padding-top:20px ;
+    padding-bottom: 0px;
+    margin: 0;
+    color: #f8f8f8;
+    font-weight: 400;
+    font-size: 25px;
+    justify-content: space-between;
+    gap: 30px;
+ 
+
+}
+
+.navbar li  {
+    text-decoration: none;
+    color: rgb(82, 210, 210);
+    display: inline;
+    margin-right: 15px;
+}
+
+section#product-listings {
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    ;
+}
+
+.product {
+    border-radius: 10px;
+    background-color: #a6ba0c;
+    border: 1px solid #8b0e0e;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product p {
+    color: #cd2020;
+}
+
+.product button {
+    background-color: #4cadaf;
+    color: #f7f2f2;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.product button:hover {
+    background-color: #e06eeb;
+}
+.navbar ul li button{
+    height: 50px;
+    width: 120px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 400px;
+    
+}
+/* button{
+    font-size: 20px;
+    height: 60px;
+    width: 100px;
+    border: none;
+    border-radius: 10%;
+    
+    
+}
+button:hover{
+    color: #27e611;
+} */
+footer {
+    background-color: #f5cf10;
+    color: #ca1818;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

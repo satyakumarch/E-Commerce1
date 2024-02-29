@@ -1,0 +1,107 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple responsive Checkout Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+        <div class="title">Check Form</div>
+
+        <div class="input-form">
+            <div class="section-1">
+                <div class="items">
+                    <label class="label">Card number</label>
+                    <input type="text" class="input" placeholder="**** **** **** ****" data-mask="0000 0000 0000 0000">
+                </div>
+            </div>
+
+            <div class="section-2">
+                <div class="items">
+                    <label class="label">Card holder</label>
+                    <input type="text" class="input" placeholder="**************">
+                </div>
+            </div>
+            <div class="section-3">
+                <div class="items">
+                    <label class="label">Expire date</label>
+                    <input type="text" class="input" placeholder="MM/YY" data-mask="00 / 00">
+                </div>
+                <div class="items">
+                    <div class="CVC">
+                        <label class="label">CVC code</label>
+                        <div class="tooltip">?
+                            <div class="cvc-img">
+                                <img src="atm.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <input type="text" class="input" placeholder="****">
+                </div>
+            </div>
+
+        </div>
+            <div class="btn">Proceed</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout form</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="title">Checkout Form</div>
+
+            <div class="input-form">
+                <div class="section">
+                    <div class="items">
+                        <label class="label">Card number</label>
+                        <input type="text" class="input" placeholder="**** **** **** ****" data-mask="0000 0000 0000 0000">
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="items">
+                        <label class="label">Card holder</label>
+                        <input type="text" class="input" placeholder="John Doe">
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="items">
+                        <label class="label">Expire date</label>
+                        <input type="text" class="input" placeholder="MM/YY" data-mask="00 / 00">
+                    </div>
+                    <div class="items">
+                        <div class="CVC">
+                            <label class="label">CVC code</label>
+                            <div class="tooltip">?
+                                <div class="cvc-img">
+                                    <img src="atm.jpg" height="200px" width="200px">
+                                </div>
+                            </div>
+                        </div>
+                        <input type="text" class="input" placeholder="***">
+                    </div>
+                </div>
+            </div>
+            <button class="btn" id="proceedBtn">Proceed</button>
+        </div>
+    </div>
+    <script src="checkout.js"></script>
+</body>
+</html>
